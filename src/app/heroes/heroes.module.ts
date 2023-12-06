@@ -9,13 +9,14 @@ import { ListComponent } from "./list/list.component";
         HeroComponent,
         ListComponent
     ],
+    imports: [
+        CommonModule
+    ],
     exports: [
         HeroComponent,
         ListComponent
-    ], 
-    imports: [
-        CommonModule
     ]
+    
 })
 
 export class HeroesModule { }
